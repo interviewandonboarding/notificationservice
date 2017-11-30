@@ -1,0 +1,9 @@
+mail:
+  config:
+    calendar-mime-type: text/calendar ics ICS
+    smtp-host: smtp.gmail.com
+    smtp-start-tls: mail.smtp.starttls.enable
+    smtp-auth: mail.smtp.auth
+    smtp-port: mail.smtp.port
+    smtp-socket-factory-class: javax.net.ssl.SSLSocketFactory
+    smtp-socket-factory-port: 465
